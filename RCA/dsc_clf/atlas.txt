@@ -1,0 +1,2 @@
+#SAVE the segmentation results (warp labels) of each atlas here#
+
