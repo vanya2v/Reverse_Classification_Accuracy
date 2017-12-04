@@ -1,8 +1,8 @@
-#RCA
+# RCA
 
 RCA (Reverse Classification Accuracy) is an accuracy predictor for image segmentation. It is developed to enable an evaluation of segmentation methods when the ground truth (manual label of segmentation) is not available, particularly on medical imaging. The aim is to predict the Dice scores (mainly) and output the quality of a segmentation. In RCA, we train the classifier back to the training dataset by using an segmentation result from the testing image that we wish to predict the accuracy.
 
-##Referencing and citing RCA
+## Referencing and citing RCA
 ```
 @article{valindria2017reverse,
   title={Reverse Classification Accuracy: Predicting Segmentation Performance in the Absence of Ground Truth},
@@ -13,7 +13,7 @@ RCA (Reverse Classification Accuracy) is an accuracy predictor for image segment
 }
 ```
 
-##How to use:
+## How to use:
 
 1. Preparing the data:
 TEST set: contain subjects with image segmentation that we want to predict
